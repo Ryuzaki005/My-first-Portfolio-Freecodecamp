@@ -1,0 +1,350 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Space Mono", cursive, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#welcome-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nada {
+    color: white;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.profil {
+    display: flex;
+    right: 0;
+    width: 100%;
+    left: 0;
+    padding-top: 100px;
+}
+
+.right {
+    width: 100%;
+    background: linear-gradient(to bottom, #d87829 0%, #dd8645 20%, #e2945d 30%, #e7a272 40%, #ebaf87 45%, #f3caaf 55%, #f3caaf 65%, #f6d7c3 75%, #fae4d7 80%, #fcf2eb 90%);
+}
+
+.left {
+    width: 60%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: #0b2732;
+}
+
+#navbar-1 {
+    display: flex;
+    column-gap: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, #d87829 0%, #3a7893 80%);
+    box-shadow: -2px 17px 24px -7px rgba(0, 0, 0, 0.75);
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+
+#my-name {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #3a7893;
+    text-decoration: none;
+    align-items: center;
+    color: #d87829;
+    font-size: 26px;
+    font-weight: bolder;
+    box-shadow: -2px 17px 24px -7px rgba(0, 0, 0, 0.75);
+    font-family: "Rye", serif;
+}
+
+li {
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+    font-size: 18px;
+}
+
+#navbar-1 li a {
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.job-desc {
+    display: flex;
+    margin-top: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.achieve {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: #d7d7d7;
+    align-items: center;
+    overflow: auto;
+}
+
+.flexbox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.icon-size {
+    width: 90px;
+    height: 90px;
+    margin: 0 40px;
+}
+
+.note {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.intro-project {
+    width: 100%;
+    height: 90px;
+    background-color: #d87829;
+    color: black;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.intro-project-h1 {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#my-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-top: 10px;
+    padding-bottom: 30px;
+    grid-gap: 10px;
+    min-height: 150px;
+    justify-content: center;
+    width: 100%;
+    height: 1fr;
+    background-color: #cacaca;
+}
+
+.test-div {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.test-div:hover {
+    box-shadow: 12px 20px 24px 4px #3a7893;
+    transition-duration: 0.6s;
+}
+
+.proj-desc {
+    height: 100px;
+    width: 100%;
+    background-color: #3a7893;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.proj-prev {
+    height: 80%;
+    width: 100%;
+}
+
+#proj-dev1 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Unit-Converter%20netlify.app%201.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev2 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Bday%20Itachi%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev3 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Blackjack%20Scrimba%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev4 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/My%20home%20Town%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev5 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Password-Gen%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev6 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Basketball%20scoreboard%20Scrimba%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev7 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/NFT%20Card%20FrontendMentor%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+#proj-dev8 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Simple%20Counter%20App%20netlify.app.jpg?raw=true");
+    background-size: contain;
+}
+
+#proj-dev9 {
+    background: url("https://github.com/Ryuzaki005/Preview-Rogn-/blob/main/Landing%20Page%20netlify.app.jpg?raw=true");
+    background-size: cover;
+}
+
+.logo {
+    width: 20%;
+    height: 100px;
+    transform: scale(2);
+    box-shadow: -2px 17px 24px -7px rgba(0, 0, 0, 0.75);
+}
+
+.text-footer {
+    margin-left: 50px;
+}
+
+.image-footer {
+    height: 100%;
+}
+
+.cta-div {
+    width: 100%;
+    height: 200px;
+    background-color: #3a7893;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.divider {
+    height: 2%;
+    width: 100%;
+    background-color: #532a09;
+    /* position:relative; */
+}
+
+@media (max-width: 850px) {
+    .cta {
+        content: "Have a project in your mind ? Contact-me";
+    }
+}
+
+.divider-parent {
+    margin: 0;
+    padding: 0;
+    background-color: #532a09;
+}
+
+.made-by {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+}
+
+
+.mon-nom-made-by {
+    font-size: 20px;
+}
+
+.mon-nom-made-by:hover {
+    font-size: 25px;
+    color: #3a7893;
+    cursor: pointer;
+}
+
+.social-media {
+    height: 25px;
+    width: 25px;
+}
+
+.social-media-icon {
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#social-network {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media li {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+#social-network a {
+    text-decoration: none;
+}
